@@ -1,0 +1,212 @@
+/*-----------------------------------------------------------------------------------
+Template Name: New HTML5 Template,
+Template URI: http://www.themectg.com
+Description: This is html5 template
+Author: Themectg
+Author URI: http://www.themectg.com
+Version: 1.0
+-----------------------------------------------------------------------------------
+CSS INDEX
+===================
+1. Google font
+2. Theme Default CSS
+3. Helper-class
+4. Button-style
+5. Mainmenu-area
+6. Section-Background
+7. Header-style
+8. Headline-style
+9. Skills-area
+10. Service-area
+11. Work-area
+12. Team-area
+13. Bar-effect-css
+14. Masp style
+15. Form-style
+16. Scroll-To-Top-Button
+17. Preloader-css
+-----------------------------------------------------------------------------------*/
+
+/*-----------------
+1. Google font
+------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+/*-------------------
+2. Theme Default CSS
+--------------------*/
+
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #333333;
+}
+
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #202020;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*-- Helper-Class --*/
+
+.upper {
+    text-transform: uppercase;
+}
+
+/*-- Main-Menu-Area --*/
+
+.mainmenu-area {
+    padding: 0;
+    margin: 0;
+}
+
+.mainmenu-area .site-title {
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.mainmenu-area ul.nav.navbar-nav li a {
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 30px 15px;
+    font-size: 14px;
+}
+
+.mainmenu-area ul.nav.navbar-nav li.active a,
+.mainmenu-area ul.nav.navbar-nav li a:focus,
+.mainmenu-area ul.nav.navbar-nav li a:hover {
+    background-color: #FA7D2B;
+    color: #ffffff;
+}
+
+/*-- Site-Header --*/
+
+.site-header {
+    padding: 150px 0;
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.site-header h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.site-header h5 {
+    letter-spacing: 1.1px;
+}
+
+.site-header h1:after {
+    content: '\f192';
+    font-family: 'fontawesome';
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+/*-- Sinlge-Post-List --*/
+
+.post-single {
+    margin-top: 100px;
+}
+
+.post-single .post-media {
+    margin: 0 0 50px 0;
+    padding: 0;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.2)
+}
+
+.post-single .post-body .post-title {
+    margin-bottom: 30px;
+}
+
+.post-single .post-body .post-meta {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.post-single .post-body .post-meta {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.post-single .post-body .post-meta li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.post-single .post-body .post-meta li i.fa {
+    margin-right: 5px;
+}
+
+.readmore {
+    color: #FA7D2B;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    float: right;
+}
+.readmore:hover {
+    color: #FA7D2B;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #FA7D2B;
+}
